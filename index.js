@@ -16,7 +16,7 @@ app.get("/", function(request, response) {
 
 
 var infoList = [{"name":"deer.jpg"},{"name":"hero.jpg"},{"name":"bison.jpg"},{"name":"release.jpg"}];
-var internetList = [{"name":"https://mvhs-vistausd-ca.schoolloop.com/uimg/file/1444984673163/4419624758637892458.png"}];
+var internetList = [{"name":"https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2022/03/15085347/Miniature-Poodles-head-portrait-outdoors-1.jpg"}];
 	
 app.get('/request', function(req, res){
 	if (req.query.index < 0) {
