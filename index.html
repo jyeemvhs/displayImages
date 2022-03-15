@@ -18,9 +18,9 @@
     </div>
     
 <!-- 0 -->
-    <img id="image1" src="images/hero.jpg" alt="" height="285" width="380">
+<!--    <img id="image1" src="images/hero.jpg" alt="" height="285" width="380">  -->
 <!-- 1 -->
-<!--    <img id="image1" src="hero.jpg" alt="" height="285" width="380">  -->
+    <img id="image1" src="hero.jpg" alt="" height="285" width="380">
 <!-- 2 -->
 <!--    <img id="image1" src="hello/hero.jpg" alt="" height="285" width="380">  -->
 
@@ -28,8 +28,8 @@
 
     <script>   
 		function success(data) { 
-      image1.src = "images/" + data.name;  // 0
-//      image1.src = data.name;    // 1
+//      image1.src = "images/" + data.name;  // 0
+      image1.src = data.name;    // 1
 //      image1.src = 'hello/' + data.name;    // 2
   		}
   		function internet(data) { 
